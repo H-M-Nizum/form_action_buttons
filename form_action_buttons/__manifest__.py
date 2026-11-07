@@ -1,5 +1,5 @@
 {
-    'name': 'Form Save & Discard Buttons',
+    'name': 'Save & Discard Buttons',
     'summary': 'Replace the tiny save/discard icons of every form with two real, colourful buttons',
     'description': 'Shows "Save" and "Discard" buttons in the top-left corner of every form view, '
                    'with configurable background and text colours.',
