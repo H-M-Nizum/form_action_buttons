@@ -7,6 +7,7 @@ from .ir_http import DEFAULT_COLORS
 class ResConfigSettings(models.TransientModel):
     _inherit = 'res.config.settings'
 
+
     fab_save_bg = fields.Char(
         string='Save Button Background', default=DEFAULT_COLORS['save_bg'],
         config_parameter='form_action_buttons.save_bg')
