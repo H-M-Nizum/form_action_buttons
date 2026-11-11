@@ -1,8 +1,0 @@
-.o_form_status_indicator .o_fab_button {
-    font-weight: 500;
-    border-radius: 4px;
-    white-space: nowrap;
-
-    &:hover:not(:disabled) { filter: brightness(0.92); }
-    &:disabled { opacity: 0.5; }
-}
