@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates xml:space="preserve">
+    <t t-inherit="web.FormStatusIndicator" t-inherit-mode="extension">
+        <xpath expr="//button[hasclass('o_form_button_save')]" position="attributes">
+            <attribute name="class">o_form_button_save o_fab_button btn border px-3 py-1 lh-sm me-2</attribute>
+            <attribute name="t-att-style">fabSaveStyle</attribute>
+        </xpath>
+        <xpath expr="//button[hasclass('o_form_button_save')]/i" position="replace">
+            <i class="fa fa-floppy-o me-1"/><span>Save</span>
+        </xpath>
+        <xpath expr="//button[hasclass('o_form_button_cancel')]" position="attributes">
+            <attribute name="class">o_form_button_cancel o_fab_button btn border px-3 py-1 lh-sm</attribute>
+            <attribute name="t-att-style">fabDiscardStyle</attribute>
+        </xpath>
+        <xpath expr="//button[hasclass('o_form_button_cancel')]/i" position="replace">
+            <i class="fa fa-times me-1"/><span>Discard</span>
+        </xpath>
+    </t>
+</templates>
